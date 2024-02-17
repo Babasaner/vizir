@@ -1,0 +1,27 @@
+.home-top_carousel-bg__item > img{
+
+
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit:cover
+}
+
+.slick-dots button
+{
+  
+  margin-right: 30px !important;
+}
+
+
+.slick-dots button::before
+{
+    width: 46px !important;
+    height: 10px;
+    border-radius: 0px !important;
+    background: #fff;
+    border: 2px solid #000;
+}
+

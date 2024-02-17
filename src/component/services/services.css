@@ -1,0 +1,5 @@
+.fancy-skew__list li:first-child .link-wrapper:hover, .fancy-skew__list li:nth-child(2) .link-wrapper:hover, .fancy-skew__list li:nth-child(3) .link-wrapper:hover{
+
+    transform: translateX(0) rotateY(0deg) !important;
+
+}
