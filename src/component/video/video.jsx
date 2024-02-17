@@ -1,12 +1,18 @@
 import React from 'react'
 import './video.css'
+import Monvideo from "./APPARTEMENTS DE LUXE OCEAN DREAM.mp4"
 const video = () => {
   return (
     
       <div class="home-media-text">
 
 <div class="cover-video-wrapper home-media-text__video">
-<video src="https://vizirgroup.netlify.app/assets/APPARTEMENTS%20DE%20LUXE%20OCEAN%20DREAM.mp4" frameborder="0" loop="" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" autoplay="" muted=""></video></div>
+<video src={Monvideo}
+          
+          muted
+          autoPlay={"autoplay"}
+          preLoad="auto"
+          loop></video></div>
 
 
 <p class="home-media-text__caption">
